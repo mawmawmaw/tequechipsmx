@@ -36,8 +36,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="copyright">COPYRIGHT &copy; 2021 TEQUECHIPSMX - TODOS LOS DERECHOS RESERVADOS.</div>
-            <div className="copyright">Site by <a href="https://mawmawmaw.github.io/" title="MAWMAWMAW Github">MAW</a></div>
+            <div className="copyright">
+                COPYRIGHT &copy; 2021 TEQUECHIPSMX - TODOS LOS DERECHOS RESERVADOS.
+                <br/>Site by <a href="https://mawmawmaw.github.io/" title="MAWMAWMAW Github" rel="noreferrer" target="_blank">MAW</a>
+            </div>
         </div>
     )
 }
