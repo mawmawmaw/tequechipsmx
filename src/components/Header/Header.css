@@ -1,0 +1,45 @@
+img.App-logo {
+    width: 100px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#header{
+    background-color: var(--blue);
+    padding: 0 20px;
+}
+.ui.secondary.menu{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+.ui.secondary.menu .ui.item{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+.ui.secondary.menu .ui.item:hover{
+    background-color: white;
+    color:var(--yellow);
+}
+#header i.instagram.icon, #header i.facebook.icon {
+    width: 24px;
+    font-size: 24px;
+    margin: 0;
+}
+
+@media screen and (max-width: 640px){
+    #header {
+        padding: 0;
+    }
+    img.App-logo {
+        width: 60px;
+        padding: 0px;
+        border-radius: 50%;
+    }
+    a.ui.item {
+        font-size: 10px;
+        padding: 6px 8px !important;
+    }
+    a.ui.item.home {
+        display: none !important;
+    }
+}

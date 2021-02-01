@@ -1,0 +1,63 @@
+#footer {
+    background-color: var(--blue);
+    position: relative;
+    z-index: 1;
+    margin-top: -4px;
+}
+#footer img.App-logo {
+    width: 150px;
+}
+#footer i.instagram.icon, #footer i.facebook.icon {
+    width: 40px;
+    font-size: 40px;
+    margin: 0;
+}
+.footer-info {
+    padding: 20px !important;
+}
+.footer-info:hover {
+    background-color: white;
+    border-radius: 4px;
+}
+.footer-info a, .footer-info p{
+    font-weight: 500;
+    color: white;
+}
+.footer-info:hover a{
+    color: var(--yellow);
+}
+.footer-info:hover p{
+    color: var(--blue);
+}
+.copyright {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px){
+    #footer .column {
+        text-align: center !important;
+    }
+    #footer .ui.menu:not(.vertical) .right.menu {
+        margin-left: 0!important;
+    }
+    #footer .ui.four.column.stackable.grid.container .column:nth-child(1), .ui.four.column.stackable.grid.container .column:nth-child(3) {
+        width: 50% !important;
+    }
+    #footer .ui.secondary.menu {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    #footer .ui.four.column.stackable.grid.container .column:nth-child(2){
+        display: none;
+    }
+    .footer-info {
+        width: 260px;
+        margin: 0 auto;
+    }
+}

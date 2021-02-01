@@ -1,0 +1,18 @@
+:root{
+    --blue:  #295c9d;
+    --dark-blue:  #214d86;
+    --yellow: #c3902d;
+    --light-yellow: #f1b747;
+}
+body{
+    color: #333!important;
+}
+body,h1,h2,h3,h4{
+    font-family: 'Rubik', sans-serif !important;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.main-cta{
+    text-align: center;
+}

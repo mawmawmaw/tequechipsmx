@@ -1,0 +1,24 @@
+.contacto-container > div{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.contacto-container h2, .contacto-container h3{
+    text-transform: uppercase;
+    color: var(--light-yellow)
+}
+.agenda-pedido,.mas-info{
+    margin-bottom: 40px !important;
+}
+.contacto-info {
+    width: 580px !important;
+    padding: 40px !important;
+}
+.mas-info a {
+    color: #333;
+    font-weight: bold;
+}
+button.ui.green.button {
+    font-size: 16px;
+    text-transform: uppercase;
+}
