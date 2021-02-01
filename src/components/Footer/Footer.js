@@ -37,6 +37,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copyright">COPYRIGHT &copy; 2021 TEQUECHIPSMX - TODOS LOS DERECHOS RESERVADOS.</div>
+            <div className="copyright">Site by <a href="https://mawmawmaw.github.io/" title="MAWMAWMAW Github">MAW</a></div>
         </div>
     )
 }
