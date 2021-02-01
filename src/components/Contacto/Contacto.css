@@ -7,12 +7,19 @@
     text-transform: uppercase;
     color: var(--light-yellow)
 }
-.agenda-pedido,.mas-info{
-    margin-bottom: 40px !important;
+.ui.two.column.stackable.grid.mas-info {
+    margin: 0 !important;
 }
 .contacto-info {
     width: 580px !important;
     padding: 40px !important;
+}
+.contacto-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+.contacto-info ul li{
+    font-size: 1rem;
 }
 .mas-info a {
     color: #333;
@@ -21,4 +28,55 @@
 button.ui.green.button {
     font-size: 16px;
     text-transform: uppercase;
+}
+@media screen and (min-width: 768px) and (max-width: 1240px){
+    .contacto-block {
+        background-color: white;
+        background-image: none !important;
+        border: 0 !important;
+        z-index: -1;
+    }
+    .contacto-info {
+        -webkit-box-shadow: none !important;;
+        box-shadow: none!important;
+        border: 0 !important;
+    }
+    .contacto-info {
+        width: 100% !important;
+    }
+    .contacto-info table td {
+        font-size: .8rem;
+        line-height: .8rem;
+    }
+    .contacto-container h1{
+        font-size: 1.3rem;
+    }
+    .contacto-container h3, .contacto-info button.ui.button.cta{
+        font-size: 1rem;
+    }
+    .contacto-container img.ui.fluid.image {
+        width: 160% !important;
+        max-width: 160% !important;
+        z-index: -2;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1240px){
+    .contacto-info table td {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .contacto-container h1{
+        font-size: 1.5rem;
+    }
+    .contacto-container h3, .contacto-info button.ui.button.cta{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .ui.stackable.grid>.column:not(.row){
+        padding: 0 !important;
+        overflow: hidden;
+    }
 }

@@ -17,6 +17,7 @@
 .menu-container.ui.grid {
     margin-left: 0;
     margin-right: 0;
+    overflow: hidden;
 }
 .menu-info table {
     width: 100%;
