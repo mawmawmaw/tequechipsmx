@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 import './Footer.css';
 import logo from '../../img/logo.jpg';
@@ -17,10 +16,10 @@ const Footer = () => {
                 <div className="column">
                     <div className="ui secondary menu">
                         <div className="right menu">
-                        <a href="https://www.instagram.com/tequechipsmx/" className="ui item" target="_blank">
+                        <a href="https://www.instagram.com/tequechipsmx/" rel="noreferrer" className="ui item" target="_blank">
                             <i className="instagram icon"></i>
                         </a>
-                        <a href="https://www.facebook.com/TequeChipsMX/" className="ui item" target="_blank">
+                        <a href="https://www.facebook.com/TequeChipsMX/" rel="noreferrer" className="ui item" target="_blank">
                             <i className="facebook icon"></i>
                         </a>
                         </div>
@@ -29,7 +28,7 @@ const Footer = () => {
                 <div className="column">
                     <div className="footer-info">
                         <p>
-                            <a href="mailto:tequechipsmx@gmail.com"><i className="mail icon"></i>tequechipsmx@gmail.com</a>
+                            <a rel="noreferrer" target="_blank" href="mailto:tequechipsmx@gmail.com"><i className="mail icon"></i>tequechipsmx@gmail.com</a>
                             <br/><br/><i className="map marker alternate icon"></i>Tlaxcala 33, 06760
                             <br/><i className="icon"></i>Ciudad de Mexico, Mexico
                             <br/><br/><i className="phone icon"></i>+525616166191

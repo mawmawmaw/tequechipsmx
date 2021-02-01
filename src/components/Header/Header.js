@@ -23,10 +23,10 @@ const Header = () => {
                     <Link to="/contacto" className="ui item">
                         <i className="phone icon"></i> Cont&aacute;ctanos
                     </Link>
-                    <a href="https://www.instagram.com/tequechipsmx/" className="ui item" target="_blank">
+                    <a href="https://www.instagram.com/tequechipsmx/" rel="noreferrer" className="ui item" target="_blank">
                         <i className="instagram icon"></i>
                     </a>
-                    <a href="https://www.facebook.com/TequeChipsMX/" className="ui item" target="_blank">
+                    <a href="https://www.facebook.com/TequeChipsMX/" rel="noreferrer" className="ui item" target="_blank">
                         <i className="facebook icon"></i>
                     </a>
                 </div>
