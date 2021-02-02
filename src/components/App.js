@@ -18,7 +18,6 @@ const Contacto = lazy(() => import('./Contacto/Contacto'));
 const App = () => {
   return (
       <div id="tequechips">
-        <div id="loader"><img src={logo} alt="Tequechips Logo"/></div>
           <Router>
             <Suspense fallback={<div id="loader"><img src={logo} alt="Tequechips Logo"/></div>}>
                 <Header/>
