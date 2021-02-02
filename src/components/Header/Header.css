@@ -3,9 +3,12 @@ img.App-logo {
     padding: 10px;
     border-radius: 50%;
 }
-#header{
+#header {
     background-color: var(--blue);
     padding: 0 20px;
+    box-shadow: 0px -16px 20px 8px #333;
+    z-index: 1;
+    position: relative;
 }
 .ui.secondary.menu{
     font-family: 'Rubik', sans-serif;

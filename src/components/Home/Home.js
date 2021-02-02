@@ -16,12 +16,12 @@ const Home = () => {
                     <h2>&iexcl;UNA VEZ QUE LOS PRUEBAS NO PUEDES PARAR!</h2>
                     <div className="main-cta">
                         <Link to="/menu">
-                            <button class="ui button cta">
+                            <button className="ui button cta">
                                 Nuestro Menu
                             </button>
                         </Link>
                         <Link to="/contacto">
-                            <button class="ui button cta">
+                            <button className="ui button cta">
                                 &iexcl;Haz tu pedido ya!
                             </button>
                         </Link>

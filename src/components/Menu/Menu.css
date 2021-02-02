@@ -1,23 +1,15 @@
-.menu-container {
-    margin-top: 0 !important;
+.full-background.ui.image {
+    width: 100%;
 }
-.menu-container > div:nth-child(2){
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-}
-.menu-info {
-    width: 580px !important;
+.menu-info.ui.text.container {
+    width: 560px !important;
+    max-width: 560px !important;
     padding: 40px !important;
+    margin: 20px;
 }
-.menu-container h1, .menu-container h3{
+.menu-info h1, .menu-info h3{
     text-transform: uppercase;
     color: var(--light-yellow)
-}
-.menu-container.ui.grid {
-    margin-left: 0;
-    margin-right: 0;
-    overflow: hidden;
 }
 .menu-info table {
     width: 100%;
@@ -41,61 +33,42 @@
 .menu-info button.ui.button.cta:hover{
     background-color: var(--dark-blue);
 }
-
-
-@media screen and (min-width: 768px) and (max-width: 1240px){
-    .menu-block {
-        background-color: white;
-        background-image: none !important;
-        border: 0 !important;
-    }
-    .menu-block .ui.segment {
-        -webkit-box-shadow: none !important;;
-        box-shadow: none!important;
-        border: 0 !important;
-    }
-    .menu-container img.ui.fluid.image {
-        width: 130% !important;
-        max-width: 130% !important;
+@media screen and (min-width: 768px) and (max-width: 1264px){
+    .full-background.ui.image img.ui.fluid.image {
+        width: 137% !important;
+        max-width: 137% !important;
     }
     .menu-info {
         width: 100% !important;
         padding: 20px !important;
+        background-color: white;
+        background-image: none !important;
+        border: 0 !important;
+    }
+    .menu-info .ui.segment {
+        -webkit-box-shadow: none !important;;
+        box-shadow: none!important;
+        border: 0 !important;
     }
     .menu-info table td {
         font-size: .8rem;
         line-height: .8rem;
     }
-    .menu-container h1{
-        font-size: 1.3rem;
-    }
-    .menu-container h3, .menu-info button.ui.button.cta{
+    .menu-info button.ui.button.cta{
         font-size: 1rem;
     }
 }
-
 @media screen and (min-width: 900px) and (max-width: 1240px){
     .menu-info table td {
         font-size: 1rem;
         line-height: 1rem;
     }
-    .menu-container h1{
-        font-size: 1.5rem;
-    }
-    .menu-container h3, .menu-info button.ui.button.cta{
+    .menu-info button.ui.button.cta{
         font-size: 1.2rem;
     }
 }
-
 @media screen and (max-width: 767px){
-    .ui.stackable.grid>.column:not(.row){
-        padding: 0 !important;
-        overflow: hidden;
-    }
-    .menu-container > div:nth-child(1){
+    .tc-menu .left-column{
         max-height: 200px;
-    }
-    .menu-container > div:nth-child(1) img{
-        margin-top: -40%;
     }
 }

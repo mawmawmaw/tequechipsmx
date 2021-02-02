@@ -1,17 +1,13 @@
-.contacto-container > div{
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+.full-background.ui.image {
+    width: 100%;
 }
-.contacto-container h2, .contacto-container h3{
+.contacto-info h2, .contacto-info h3{
     text-transform: uppercase;
     color: var(--light-yellow)
 }
-.ui.two.column.stackable.grid.mas-info {
-    margin: 0 !important;
-}
 .contacto-info {
-    width: 580px !important;
+    width: 560px !important;
+    max-width: 560px !important;
     padding: 40px !important;
 }
 .contacto-info ul {
@@ -20,63 +16,45 @@
 }
 .contacto-info ul li{
     font-size: 1rem;
+    font-family: monospace;
 }
-.mas-info a {
+.ui.two.column.stackable.grid.mas-info {
+    margin: 0 !important;
+}
+.contacto-info .mas-info a {
     color: #333;
     font-weight: bold;
 }
-button.ui.green.button {
+.contacto-info button.ui.green.button {
     font-size: 16px;
     text-transform: uppercase;
 }
 @media screen and (min-width: 768px) and (max-width: 1240px){
-    .contacto-block {
-        background-color: white;
-        background-image: none !important;
-        border: 0 !important;
-        z-index: -1;
-    }
-    .contacto-info {
-        -webkit-box-shadow: none !important;;
-        box-shadow: none!important;
-        border: 0 !important;
+    .contacto-info.full-background.ui.image img.ui.fluid.image {
+        width: 160% !important;
+        max-width: 160% !important;
     }
     .contacto-info {
         width: 100% !important;
+        padding: 20px !important;
+        -webkit-box-shadow: none !important;;
+        box-shadow: none!important;
+        border: 0 !important;
     }
     .contacto-info table td {
         font-size: .8rem;
         line-height: .8rem;
     }
-    .contacto-container h1{
-        font-size: 1.3rem;
-    }
-    .contacto-container h3, .contacto-info button.ui.button.cta{
+    .contacto-info button.ui.button.cta{
         font-size: 1rem;
     }
-    .contacto-container img.ui.fluid.image {
-        width: 160% !important;
-        max-width: 160% !important;
-        z-index: -2;
-    }
 }
-
 @media screen and (min-width: 900px) and (max-width: 1240px){
     .contacto-info table td {
         font-size: 1rem;
         line-height: 1rem;
     }
-    .contacto-container h1{
-        font-size: 1.5rem;
-    }
-    .contacto-container h3, .contacto-info button.ui.button.cta{
+    .contacto-info button.ui.button.cta{
         font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 767px){
-    .ui.stackable.grid>.column:not(.row){
-        padding: 0 !important;
-        overflow: hidden;
     }
 }

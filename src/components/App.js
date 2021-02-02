@@ -1,27 +1,32 @@
+import React, { lazy, Suspense} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route
 } from "react-router-dom";
 
-import Header from './Header/Header';
-import Home from './Home/Home';
-import Menu from './Menu/Menu';
-import Contacto from './Contacto/Contacto';
-import Footer from './Footer/Footer';
-
 import './App.css';
 
-function App() {
+const Header = lazy(() => import('./Header/Header'));
+const Home = lazy(() => import('./Home/Home'));
+const Menu = lazy(() => import('./Menu/Menu'));
+const Contacto = lazy(() => import('./Contacto/Contacto'));
+const Footer = lazy(() => import('./Footer/Footer'));
+
+const renderLoader = () => <p>Loading...</p>;
+
+const App = () => {
   return (
-    <div id="tequechips">
+      <div id="tequechips">
           <Router>
+            <Suspense fallback={renderLoader()}>
               <Header/>
               <Route path="/" exact component={Home} />
               <Route path="/menu" exact component={Menu} />
               <Route path="/contacto" exact component={Contacto} />
               <Footer/>
+            </Suspense>
           </Router>
-    </div>
+      </div>
   );
 }
 
