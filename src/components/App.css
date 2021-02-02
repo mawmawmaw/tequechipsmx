@@ -16,3 +16,23 @@ body,h1,h2,h3,h4{
 .main-cta{
     text-align: center;
 }
+div#loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#loader img{
+    width: 260px;
+    animation: breathe 1s ease-in-out .1s infinite;
+}
+@keyframes breathe {
+    0%   {width: 260px}
+    50%  {width: 320px}
+    100% {width: 260px}
+  }

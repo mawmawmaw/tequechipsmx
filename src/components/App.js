@@ -9,6 +9,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 
 import './App.css';
+import logo from '../img/logo.jpg';
 
 const Home = lazy(() => import('./Home/Home'));
 const Menu = lazy(() => import('./Menu/Menu'));
@@ -17,8 +18,9 @@ const Contacto = lazy(() => import('./Contacto/Contacto'));
 const App = () => {
   return (
       <div id="tequechips">
+        <div id="loader"><img src={logo} alt="Tequechips Logo"/></div>
           <Router>
-            <Suspense fallback={<p>Loading...</p>}>
+            <Suspense fallback={<div id="loader"><img src={logo} alt="Tequechips Logo"/></div>}>
                 <Header/>
                 <Switch>
                   <Route path="/" exact component={Home} />
