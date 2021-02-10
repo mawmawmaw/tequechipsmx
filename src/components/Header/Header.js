@@ -14,19 +14,19 @@ const Header = () => {
                     </div>
                 </Link>
                 <div className="right menu">
-                    <Link to="/" className="ui item home">
+                    <Link to="/" className="ui item home" title="Home">
                         <i className="home icon"></i> Inicio
                     </Link>
-                    <Link to="/menu" className="ui item">
+                    <Link to="/menu" className="ui item" title="Menu">
                         <i className="food icon"></i> Men&uacute;
                     </Link>
-                    <Link to="/contacto" className="ui item">
+                    <Link to="/contacto" className="ui item" title="Contacto">
                         <i className="phone icon"></i> Cont&aacute;ctanos
                     </Link>
-                    <a href="https://www.instagram.com/tequechipsmx/" rel="noreferrer" className="ui item" target="_blank">
+                    <a href="https://www.instagram.com/tequechipsmx/" rel="noreferrer" className="ui item" target="_blank" title="Instagram">
                         <i className="instagram icon"></i>
                     </a>
-                    <a href="https://www.facebook.com/TequeChipsMX/" rel="noreferrer" className="ui item" target="_blank">
+                    <a href="https://www.facebook.com/TequeChipsMX/" rel="noreferrer" className="ui item" target="_blank" title="Facebook">
                         <i className="facebook icon"></i>
                     </a>
                 </div>
