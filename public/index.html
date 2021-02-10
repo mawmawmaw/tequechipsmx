@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.jpg" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <!-- Google Tag Manager -->
@@ -68,5 +68,10 @@
     <!-- End Google Tag Manager (noscript) -->
     <noscript>Por favor, habilita Javascript en tu navegador para poder visualizar la p&aacute;gina.</noscript>
     <div id="root"></div>
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('https://tequechips.com/sw.js')
+      }
+      </script>
   </body>
 </html>
