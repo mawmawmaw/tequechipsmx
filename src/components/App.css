@@ -2,7 +2,7 @@
     --blue:  #295c9d;
     --dark-blue:  #214d86;
     --yellow: #c3902d;
-    --light-yellow: #f1b747;
+    --light-yellow: #e4a222;
 }
 body{
     color: #333!important;
@@ -30,6 +30,9 @@ div#loader {
 div#loader img{
     width: 260px;
     animation: breathe 1s ease-in-out .1s infinite;
+}
+.ui.green.button{
+    background-color: #1ba73c !important;
 }
 @keyframes breathe {
     0%   {width: 260px}

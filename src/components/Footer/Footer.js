@@ -16,10 +16,10 @@ const Footer = () => {
                 <div className="column">
                     <div className="ui secondary menu">
                         <div className="right menu">
-                        <a href="https://www.instagram.com/tequechipsmx/" rel="noreferrer" className="ui item" target="_blank">
+                        <a href="https://www.instagram.com/tequechipsmx/" rel="noreferrer" className="ui item" target="_blank" title="Instagram">
                             <i className="instagram icon"></i>
                         </a>
-                        <a href="https://www.facebook.com/TequeChipsMX/" rel="noreferrer" className="ui item" target="_blank">
+                        <a href="https://www.facebook.com/TequeChipsMX/" rel="noreferrer" className="ui item" target="_blank" title="Facebook">
                             <i className="facebook icon"></i>
                         </a>
                         </div>
