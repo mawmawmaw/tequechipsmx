@@ -1,34 +1,35 @@
 [
     {"id":"Tequeños",
         "items": [
-            {"item":"10 tequeños de queso", "precio": "90"},
-            {"item":"20 tequeños de queso", "precio": "180"},
-            {"item":"30 tequeños de queso", "precio": "270"},
-            {"item":"40 tequeños de queso", "precio": "360"},
-            {"item":"50 tequeños de queso", "precio": "450"}
+            {"item":"10 tequeños de queso", "precio": "99"},
+            {"item":"20 tequeños de queso", "precio": "199"},
+            {"item":"30 tequeños de queso", "precio": "299"},
+            {"item":"40 tequeños de queso", "precio": "399"},
+            {"item":"50 tequeños de queso", "precio": "499"}
         ]
     },
     {"id":"Tequeños De Fiesta (Pequechips)",
         "items": [
-            {"item":"50 tequeños de fiesta", "precio": "350"},
-            {"item":"100 tequeños de fiesta", "precio": "700"},
-            {"item":"150 tequeños de fiesta", "precio": "1050"},
-            {"item":"200 tequeños de fiesta", "precio": "1400"}
+            {"item":"50 tequeños de fiesta", "precio": "390"},
+            {"item":"100 tequeños de fiesta", "precio": "780"},
+            {"item":"150 tequeños de fiesta", "precio": "1170"},
+            {"item":"200 tequeños de fiesta", "precio": "1560"}
         ]
     },
     {"id":"Pastelitos (carne molida, queso o papa con queso)",
         "items": [
-            {"item":"6 Pastelitos", "precio": "102"},
-            {"item":"12 Pastelitos", "precio": "204"},
-            {"item":"18 Pastelitos", "precio": "306"},
-            {"item":"24 Pastelitos", "precio": "408"},
-            {"item":"30 Pastelitos", "precio": "510"}
+            {"item":"3 Pastelitos", "precio": "54"},
+            {"item":"6 Pastelitos", "precio": "108"},
+            {"item":"12 Pastelitos", "precio": "216"},
+            {"item":"18 Pastelitos", "precio": "324"},
+            {"item":"24 Pastelitos", "precio": "432"},
+            {"item":"30 Pastelitos", "precio": "540"}
         ]
     },
     {"id":"Salsas",
         "items": [
-            {"item":"Salsa tartara 4oz.", "precio": "15"},
-            {"item":"Salsa tartara 8oz.", "precio": "30"}
+            {"item":"Salsa tartara 4oz.", "precio": "25"},
+            {"item":"Salsa tartara 8oz.", "precio": "40"}
         ]
     }
 ]
