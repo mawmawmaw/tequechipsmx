@@ -2,10 +2,10 @@ var APP_PREFIX = 'Tequechips'     // Identifier for this app (this needs to be c
 var VERSION = '_v_01'              // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
-  '/index.html',                        // add path to those files here
-  '/images/logo192.png',
-  '/images/logo512.png',
-  '/images/fbtw.jpg'
+  '/',                        // add path to those files here
+  '/logo192.jpg',
+  '/logo512.jpg',
+  '/fbtw.jpg'
 ]
 
 // Respond with cached resources
